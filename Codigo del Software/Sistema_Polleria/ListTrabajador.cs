@@ -37,7 +37,8 @@ namespace Sistema_Polleria
                 new ne_trabajador().trabajador_del(dni);             
                 this.Close();
             }
-
+            ListadoTrabajador l = new ListadoTrabajador();
+            l.gvTrabajadores.DataSource = new ne_trabajador().trabajador_sel();
 
         }
     }

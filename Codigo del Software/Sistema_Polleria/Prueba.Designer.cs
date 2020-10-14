@@ -28,13 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Prueba));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.cmbProd = new System.Windows.Forms.ComboBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbRegimen = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.txtCorreo = new System.Windows.Forms.TextBox();
@@ -53,7 +54,7 @@
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Controls.Add(this.numericUpDown1);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.cmbRegimen);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.txtCorreo);
@@ -94,10 +95,12 @@
             // 
             this.cmbProd.FormattingEnabled = true;
             this.cmbProd.Items.AddRange(new object[] {
-            "Pollo(brasa)",
-            "Salsas(Ketchup - Mostaza)",
+            "Pollo",
+            "Salsas",
             "Aceite",
-            "Carbón"});
+            "Carbón",
+            "Papas",
+            "Verduras"});
             this.cmbProd.Location = new System.Drawing.Point(201, 41);
             this.cmbProd.Name = "cmbProd";
             this.cmbProd.Size = new System.Drawing.Size(195, 21);
@@ -119,17 +122,17 @@
             this.label6.TabIndex = 13;
             this.label6.Text = "N° Régimen:";
             // 
-            // comboBox1
+            // cmbRegimen
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmbRegimen.FormattingEnabled = true;
+            this.cmbRegimen.Items.AddRange(new object[] {
             "RUC",
             "RUS",
             "otros"});
-            this.comboBox1.Location = new System.Drawing.Point(379, 54);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 12;
+            this.cmbRegimen.Location = new System.Drawing.Point(379, 54);
+            this.cmbRegimen.Name = "cmbRegimen";
+            this.cmbRegimen.Size = new System.Drawing.Size(121, 21);
+            this.cmbRegimen.TabIndex = 12;
             // 
             // label5
             // 
@@ -204,6 +207,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Prueba";
             this.Text = "Proveedores";
             this.groupBox1.ResumeLayout(false);
@@ -230,7 +234,7 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbRegimen;
         private System.Windows.Forms.Label label5;
     }
 }

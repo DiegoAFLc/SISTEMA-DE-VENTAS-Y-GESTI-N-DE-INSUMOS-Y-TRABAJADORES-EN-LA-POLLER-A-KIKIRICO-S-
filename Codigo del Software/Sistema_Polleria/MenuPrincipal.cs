@@ -162,5 +162,23 @@ namespace Sistema_Polleria
             Precios_Productos pp = new Precios_Productos();
             pp.Show();
         }
+
+        private void registrarProductosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Registro_Producto rp = new Registro_Producto();
+            rp.Show();
+        }
+
+        private void listarProveedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Listado_Proveedores lp = new Listado_Proveedores();
+            lp.Show();
+        }
+
+        private void productosRegistradosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Insumos_Registrados ir = new Insumos_Registrados();
+            ir.Show();
+        }
     }
 }

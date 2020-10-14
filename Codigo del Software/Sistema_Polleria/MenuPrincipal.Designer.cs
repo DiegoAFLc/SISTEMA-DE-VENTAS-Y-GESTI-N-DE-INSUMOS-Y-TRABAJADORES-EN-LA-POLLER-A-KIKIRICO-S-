@@ -39,11 +39,11 @@
             this.realizarUnaVentaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cancelarUnaVentaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reporteDeVentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.asignaciónDePreciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opcAdmin = new System.Windows.Forms.ToolStripMenuItem();
             this.productosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.productosRegistradosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registrarProductosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.registrarProveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trabajadoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trabajadoresRegistradosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registrarTrabajadorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -59,7 +59,7 @@
             this.lblUsu = new System.Windows.Forms.Label();
             this.lbUsu = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.asignaciónDePreciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.basedDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.basedDataSet)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -146,6 +146,15 @@
             this.reporteDeVentasToolStripMenuItem.Size = new System.Drawing.Size(226, 38);
             this.reporteDeVentasToolStripMenuItem.Text = "Reporte de Ventas";
             // 
+            // asignaciónDePreciosToolStripMenuItem
+            // 
+            this.asignaciónDePreciosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("asignaciónDePreciosToolStripMenuItem.Image")));
+            this.asignaciónDePreciosToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.asignaciónDePreciosToolStripMenuItem.Name = "asignaciónDePreciosToolStripMenuItem";
+            this.asignaciónDePreciosToolStripMenuItem.Size = new System.Drawing.Size(226, 38);
+            this.asignaciónDePreciosToolStripMenuItem.Text = "Asignación de Precios";
+            this.asignaciónDePreciosToolStripMenuItem.Click += new System.EventHandler(this.asignaciónDePreciosToolStripMenuItem_Click);
+            // 
             // opcAdmin
             // 
             this.opcAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
@@ -164,14 +173,13 @@
             // 
             this.productosToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.productosRegistradosToolStripMenuItem,
-            this.registrarProductosToolStripMenuItem,
-            this.registrarProveedoresToolStripMenuItem});
+            this.registrarProductosToolStripMenuItem});
             this.productosToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("productosToolStripMenuItem1.Image")));
             this.productosToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.productosToolStripMenuItem1.Margin = new System.Windows.Forms.Padding(0, 1, 0, 1);
             this.productosToolStripMenuItem1.Name = "productosToolStripMenuItem1";
-            this.productosToolStripMenuItem1.Size = new System.Drawing.Size(171, 38);
-            this.productosToolStripMenuItem1.Text = "Productos";
+            this.productosToolStripMenuItem1.Size = new System.Drawing.Size(196, 38);
+            this.productosToolStripMenuItem1.Text = "Insumos";
             this.productosToolStripMenuItem1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // productosRegistradosToolStripMenuItem
@@ -179,25 +187,18 @@
             this.productosRegistradosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("productosRegistradosToolStripMenuItem.Image")));
             this.productosRegistradosToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.productosRegistradosToolStripMenuItem.Name = "productosRegistradosToolStripMenuItem";
-            this.productosRegistradosToolStripMenuItem.Size = new System.Drawing.Size(223, 30);
-            this.productosRegistradosToolStripMenuItem.Text = "Productos Registrados";
+            this.productosRegistradosToolStripMenuItem.Size = new System.Drawing.Size(213, 30);
+            this.productosRegistradosToolStripMenuItem.Text = "Insumos Registrados";
+            this.productosRegistradosToolStripMenuItem.Click += new System.EventHandler(this.productosRegistradosToolStripMenuItem_Click);
             // 
             // registrarProductosToolStripMenuItem
             // 
             this.registrarProductosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("registrarProductosToolStripMenuItem.Image")));
             this.registrarProductosToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.registrarProductosToolStripMenuItem.Name = "registrarProductosToolStripMenuItem";
-            this.registrarProductosToolStripMenuItem.Size = new System.Drawing.Size(223, 30);
-            this.registrarProductosToolStripMenuItem.Text = "Registrar Productos";
-            // 
-            // registrarProveedoresToolStripMenuItem
-            // 
-            this.registrarProveedoresToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("registrarProveedoresToolStripMenuItem.Image")));
-            this.registrarProveedoresToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.registrarProveedoresToolStripMenuItem.Name = "registrarProveedoresToolStripMenuItem";
-            this.registrarProveedoresToolStripMenuItem.Size = new System.Drawing.Size(223, 30);
-            this.registrarProveedoresToolStripMenuItem.Text = "Registrar Proveedores";
-            this.registrarProveedoresToolStripMenuItem.Click += new System.EventHandler(this.registrarProveedoresToolStripMenuItem_Click);
+            this.registrarProductosToolStripMenuItem.Size = new System.Drawing.Size(213, 30);
+            this.registrarProductosToolStripMenuItem.Text = "Registrar Insumos ";
+            this.registrarProductosToolStripMenuItem.Click += new System.EventHandler(this.registrarProductosToolStripMenuItem_Click);
             // 
             // trabajadoresToolStripMenuItem
             // 
@@ -208,7 +209,7 @@
             this.trabajadoresToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("trabajadoresToolStripMenuItem.Image")));
             this.trabajadoresToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.trabajadoresToolStripMenuItem.Name = "trabajadoresToolStripMenuItem";
-            this.trabajadoresToolStripMenuItem.Size = new System.Drawing.Size(171, 38);
+            this.trabajadoresToolStripMenuItem.Size = new System.Drawing.Size(196, 38);
             this.trabajadoresToolStripMenuItem.Text = "Trabajadores";
             // 
             // trabajadoresRegistradosToolStripMenuItem
@@ -245,22 +246,26 @@
             this.proveedoresToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("proveedoresToolStripMenuItem.Image")));
             this.proveedoresToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
-            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(171, 38);
+            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(196, 38);
             this.proveedoresToolStripMenuItem.Text = "Proveedores";
             // 
             // registrarProveedorToolStripMenuItem
             // 
             this.registrarProveedorToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("registrarProveedorToolStripMenuItem.Image")));
+            this.registrarProveedorToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.registrarProveedorToolStripMenuItem.Name = "registrarProveedorToolStripMenuItem";
-            this.registrarProveedorToolStripMenuItem.Size = new System.Drawing.Size(199, 24);
+            this.registrarProveedorToolStripMenuItem.Size = new System.Drawing.Size(207, 30);
             this.registrarProveedorToolStripMenuItem.Text = "Registrar Proveedor";
             this.registrarProveedorToolStripMenuItem.Click += new System.EventHandler(this.registrarProveedorToolStripMenuItem_Click);
             // 
             // listarProveedoresToolStripMenuItem
             // 
+            this.listarProveedoresToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("listarProveedoresToolStripMenuItem.Image")));
+            this.listarProveedoresToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.listarProveedoresToolStripMenuItem.Name = "listarProveedoresToolStripMenuItem";
-            this.listarProveedoresToolStripMenuItem.Size = new System.Drawing.Size(199, 24);
+            this.listarProveedoresToolStripMenuItem.Size = new System.Drawing.Size(207, 30);
             this.listarProveedoresToolStripMenuItem.Text = "Listar Proveedores";
+            this.listarProveedoresToolStripMenuItem.Click += new System.EventHandler(this.listarProveedoresToolStripMenuItem_Click);
             // 
             // contactosToolStripMenuItem
             // 
@@ -351,25 +356,26 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // asignaciónDePreciosToolStripMenuItem
+            // label2
             // 
-            this.asignaciónDePreciosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("asignaciónDePreciosToolStripMenuItem.Image")));
-            this.asignaciónDePreciosToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.asignaciónDePreciosToolStripMenuItem.Name = "asignaciónDePreciosToolStripMenuItem";
-            this.asignaciónDePreciosToolStripMenuItem.Size = new System.Drawing.Size(226, 38);
-            this.asignaciónDePreciosToolStripMenuItem.Text = "Asignación de Precios";
-            this.asignaciónDePreciosToolStripMenuItem.Click += new System.EventHandler(this.asignaciónDePreciosToolStripMenuItem_Click);
+            this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
+            this.label2.Location = new System.Drawing.Point(-3, 84);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(1406, 634);
+            this.label2.TabIndex = 3;
             // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1273, 462);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.lbUsu);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblUsu);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MenuPrincipal";
             this.Text = "KIKIRICO\'S";
@@ -403,7 +409,6 @@
         private System.Windows.Forms.ToolStripMenuItem cancelarUnaVentaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem imagenToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reporteDeVentasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem registrarProveedoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
         public System.Windows.Forms.ToolStripMenuItem opcRegUs;
         private System.Windows.Forms.Label label1;
@@ -415,5 +420,6 @@
         private System.Windows.Forms.ListBox lbUsu;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ToolStripMenuItem asignaciónDePreciosToolStripMenuItem;
+        private System.Windows.Forms.Label label2;
     }
 }

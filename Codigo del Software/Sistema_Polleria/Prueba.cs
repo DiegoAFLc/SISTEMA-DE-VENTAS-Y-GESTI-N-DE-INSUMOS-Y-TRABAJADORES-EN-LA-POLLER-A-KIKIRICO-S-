@@ -29,10 +29,10 @@ namespace Sistema_Polleria
         {
             Proveedor obPro = new Proveedor();
             obPro.Empresa = txtEmpresa.Text;
-            obPro.Tipreg = cmbProd.Text;
+            obPro.Tipreg = cmbRegimen.Text;
             obPro.Nreg = Convert.ToInt32(numericUpDown1.Value);
             obPro.Correo = txtCorreo.Text;
-            obPro.Dirección = txtDirec.Text;
+            obPro.Direccion = txtDirec.Text;
             obPro.Tipoprod = cmbProd.Text;
             if(new ne_proveedor().proveedor_ins(obPro))
             {

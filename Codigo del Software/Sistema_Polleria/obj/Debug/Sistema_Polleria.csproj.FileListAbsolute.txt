@@ -24,3 +24,11 @@ C:\Users\david\source\repos\Sistema_Polleria\Sistema_Polleria\obj\Debug\Sistema_
 C:\Users\david\source\repos\Sistema_Polleria\Sistema_Polleria\obj\Debug\Sistema_Polleria.Representantes.resources
 C:\Users\david\source\repos\Sistema_Polleria\Sistema_Polleria\obj\Debug\Sistema_Polleria.Ventas.resources
 C:\Users\david\source\repos\Sistema_Polleria\Sistema_Polleria\obj\Debug\Sistema_Polleria.Precios_Productos.resources
+C:\Users\david\source\repos\Sistema_Polleria\Sistema_Polleria\obj\Debug\Sistema_Polleria.Listado_Proveedores.resources
+C:\Users\david\source\repos\Sistema_Polleria\Sistema_Polleria\obj\Debug\Sistema_Polleria.Registro_Producto.resources
+C:\Users\david\source\repos\Sistema_Polleria\Sistema_Polleria\obj\Debug\Sistema_Polleria.Insumos_Registrados.resources
+C:\Users\david\source\repos\Sistema_Polleria\Sistema_Polleria\bin\Debug\Sistema_Polleria.exe.manifest
+C:\Users\david\source\repos\Sistema_Polleria\Sistema_Polleria\bin\Debug\Sistema_Polleria.application
+C:\Users\david\source\repos\Sistema_Polleria\Sistema_Polleria\obj\Debug\Sistema_Polleria.exe.manifest
+C:\Users\david\source\repos\Sistema_Polleria\Sistema_Polleria\obj\Debug\Sistema_Polleria.application
+C:\Users\david\source\repos\Sistema_Polleria\Sistema_Polleria\obj\Debug\Sistema_Polleria.Listado_Insumos.resources

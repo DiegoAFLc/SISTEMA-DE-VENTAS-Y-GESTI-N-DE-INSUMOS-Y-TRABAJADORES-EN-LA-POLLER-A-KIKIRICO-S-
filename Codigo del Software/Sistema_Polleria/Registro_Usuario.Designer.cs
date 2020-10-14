@@ -180,6 +180,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(619, 382);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Registro_Usuario";
             this.Text = "Registro de Usuarios";
             this.Load += new System.EventHandler(this.Registro_Usuario_Load);

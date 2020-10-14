@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ListTrabajador));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pbUs = new System.Windows.Forms.PictureBox();
+            this.cmbTipo = new System.Windows.Forms.ComboBox();
             this.cmbModalidad = new System.Windows.Forms.ComboBox();
             this.cmbPuesto = new System.Windows.Forms.ComboBox();
             this.npEdad = new System.Windows.Forms.NumericUpDown();
@@ -46,11 +49,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.cmbTipo = new System.Windows.Forms.ComboBox();
-            this.pbUs = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.npEdad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbUs)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.npEdad)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -80,6 +81,26 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Trabajador";
+            // 
+            // pbUs
+            // 
+            this.pbUs.Location = new System.Drawing.Point(483, 35);
+            this.pbUs.Name = "pbUs";
+            this.pbUs.Size = new System.Drawing.Size(130, 132);
+            this.pbUs.TabIndex = 20;
+            this.pbUs.TabStop = false;
+            // 
+            // cmbTipo
+            // 
+            this.cmbTipo.FormattingEnabled = true;
+            this.cmbTipo.Items.AddRange(new object[] {
+            "DNI",
+            "Carné Extranjería",
+            "Otros"});
+            this.cmbTipo.Location = new System.Drawing.Point(105, 117);
+            this.cmbTipo.Name = "cmbTipo";
+            this.cmbTipo.Size = new System.Drawing.Size(100, 21);
+            this.cmbTipo.TabIndex = 19;
             // 
             // cmbModalidad
             // 
@@ -229,38 +250,19 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Nombres:";
             // 
-            // cmbTipo
-            // 
-            this.cmbTipo.FormattingEnabled = true;
-            this.cmbTipo.Items.AddRange(new object[] {
-            "DNI",
-            "Carné Extranjería",
-            "Otros"});
-            this.cmbTipo.Location = new System.Drawing.Point(105, 117);
-            this.cmbTipo.Name = "cmbTipo";
-            this.cmbTipo.Size = new System.Drawing.Size(100, 21);
-            this.cmbTipo.TabIndex = 19;
-            // 
-            // pbUs
-            // 
-            this.pbUs.Location = new System.Drawing.Point(483, 35);
-            this.pbUs.Name = "pbUs";
-            this.pbUs.Size = new System.Drawing.Size(130, 132);
-            this.pbUs.TabIndex = 20;
-            this.pbUs.TabStop = false;
-            // 
             // ListTrabajador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(660, 450);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ListTrabajador";
             this.Text = "ListTrabajador";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.npEdad)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbUs)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.npEdad)).EndInit();
             this.ResumeLayout(false);
 
         }

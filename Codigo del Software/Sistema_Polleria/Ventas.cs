@@ -42,15 +42,15 @@ namespace Sistema_Polleria
 
         private void button2_Click(object sender, EventArgs e)
         {
-            double cant, precio;
-            int n = gvProd.Rows.Add();
-            gvProd.Rows[n].Cells[0].Value = 1;
-            gvProd.Rows[n].Cells[1].Value = "Porción de Papas";
-            gvProd.Rows[n].Cells[2].Value = 8;
-            cant = Convert.ToDouble(gvProd.Rows[n].Cells[0].Value);
-            precio = Convert.ToDouble(gvProd.Rows[n].Cells[2].Value);
-            gvProd.Rows[n].Cells[3].Value = cant * precio;
-            total();
+            spPapas.Visible = true;
+            //int n = gvProd.Rows.Add();
+            //gvProd.Rows[n].Cells[0].Value = 1;
+            //gvProd.Rows[n].Cells[1].Value = "Porción de Papas";
+            //gvProd.Rows[n].Cells[2].Value = 8;
+            //cant = Convert.ToDouble(gvProd.Rows[n].Cells[0].Value);
+            //precio = Convert.ToDouble(gvProd.Rows[n].Cells[2].Value);
+            //gvProd.Rows[n].Cells[3].Value = cant * precio;
+            //total();
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -105,6 +105,27 @@ namespace Sistema_Polleria
             if (e.KeyChar == (char)13)
             {
                 spPollosol.Visible = false;
+            }
+        }
+
+        private void spPapas_ValueChanged(object sender, EventArgs e)
+        {
+            double cant, precio;
+            int n = gvProd.Rows.Add();
+            gvProd.Rows[n].Cells[0].Value = spPapas.Value;
+            gvProd.Rows[n].Cells[1].Value = "Porción de Papas";
+            gvProd.Rows[n].Cells[2].Value = 8;
+            cant = Convert.ToDouble(gvProd.Rows[n].Cells[0].Value);
+            precio = Convert.ToDouble(gvProd.Rows[n].Cells[2].Value);
+            gvProd.Rows[n].Cells[3].Value = cant * precio;
+            total();
+        }
+
+        private void spPapas_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)13)
+            {
+                spPapas.Visible = false;
             }
         }
     }
