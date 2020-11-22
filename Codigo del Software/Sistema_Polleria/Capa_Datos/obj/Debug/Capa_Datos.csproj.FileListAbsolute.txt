@@ -1,0 +1,9 @@
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Datos\obj\Debug\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Datos\obj\Debug\Capa_Datos.pdb
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Datos\bin\Debug\Capa_Entidad.dll
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Datos\bin\Debug\Capa_Entidad.pdb
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Datos\obj\Debug\Capa_Datos.csprojAssemblyReference.cache
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Datos\obj\Debug\Capa_Datos.csproj.CopyComplete

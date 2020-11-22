@@ -1,0 +1,11 @@
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Negocio\bin\Debug\Capa_Negocio.dll
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Negocio\bin\Debug\Capa_Negocio.pdb
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Negocio\bin\Debug\Capa_Datos.dll
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Negocio\bin\Debug\Capa_Datos.pdb
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Negocio\obj\Debug\Capa_Negocio.csprojAssemblyReference.cache
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CopyComplete
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Negocio\obj\Debug\Capa_Negocio.dll
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Negocio\obj\Debug\Capa_Negocio.pdb
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Negocio\bin\Debug\Capa_Entidad.dll
+C:\Users\david\source\repos\Sistema_Polleria\Capa_Negocio\bin\Debug\Capa_Entidad.pdb
